@@ -15,7 +15,7 @@ def howdy():
 def insulted():
     n = str(raw_input())
     if n != "":
-        l = ["Jk.", "You are!", "You are,", "Joseph, shut up."]
+        l = ["Jk.", "You are!", "You are,", "Hey, dude, shut up."]
         x = random.randrange(0,4)
         print(l[x])
     if n == "":
